@@ -2,3 +2,43 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+
+:root {
+  --main-font: 'IBM Plex mono';
+  --screen-width: 1024px;
+
+  --header-font-size: 157px;
+  --header-height: 768px;
+  --header-nav-width: 230px;
+  --header-nav-height: 26px;
+  --header-title-width: 759px;
+  --header-title-height: 130px;
+  --header-description-width: 491px;
+  --header-description-height: 71px;
+
+  --main_section1-height: 508px;
+  --main_section2-height: 498px;
+  --main_section3-height: 1015px;
+  --main_section4-height: 1091px;
+  
+  --scteion2_content-card-width: 315px;
+  --section4_title_width: 984px;
+  --section_title_width: 315px;
+  --section_title_height: 47px;
+
+  --footer-height: 768px;
+
+  --title-color: #FF0070;
+  --bg-color: #000028;
+  --header-title-color: #DB00FF;
+  --header-title-shadow-color: #FF0070;
+  --header-menu-button-border-color: #FF0070;
+  --h3-background-color: #FF0070;
+  --text-color: #F1B2CE;
+  --rect-color: #FF0070;
+  --res-color: #FF0070;
+  --bg-image: url(../images/cover-image-dark.png);
+  --menu-button-hover-color: rgba(255, 0, 112, 0.4);
+  --a-text-shadow-color: #FF0070;
+  --section_content_card_title_color: #000028;
+}

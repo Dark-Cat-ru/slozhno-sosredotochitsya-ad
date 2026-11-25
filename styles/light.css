@@ -5,12 +5,17 @@
 */
 
 :root.theme-light {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
-}
-
-.theme-light .page {
-  /* Вам также нужно будет написать ряд подобных селекторов */
+  --bg-color: #FFF1F7;
+  --bg-image: url(../images/cover-image-light.png);
+  --rect-color: #353430;
+  --res-color: #FFF1F7;
+  --header-menu-button-border-color: #353430;
+  --header-title-color: #FFC2E6;
+  --header-title-shadow-color: #FF8DCB;
+  --title-color: #353430;
+  --text-color: #353430;
+  --h3-background-color: #FF8DCB;
+  --a-text-shadow-color: #FF8DCB;
+  --section_content_card_title_color: #353430;
+  --menu-button-hover-color: rgba(53, 52, 48, 0.4);
 }
