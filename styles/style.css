@@ -5,6 +5,7 @@
   display: grid;
   width: var(--screen-width);
   background-color: var(--bg-color);
+  background-attachment: fixed
 }
 
 .res {
@@ -95,6 +96,7 @@
   font-size: 18px;
   font-weight: normal;
   line-height: 100%;
+  letter-spacing: 10%;
   border: none;
 }
 
@@ -112,7 +114,7 @@
 
 .header_content {
   position: relative;
-  top: 150px;
+  top: 160px;
   width: 100%;
   height: 60%;
   display: grid;
@@ -122,8 +124,8 @@
 .header__title {
   display: grid;
   align-self: center;
-  justify-content: stretch;
   position: relative;
+  letter-spacing: 15%;
   width: var(--header-title-width);
   height: var(--header-title-height);
   color: var(--header-title-color);
@@ -137,6 +139,7 @@
   align-self: center;
   font-family: var(--main-font);
   position: relative;
+  letter-spacing: 10%;
   background-color: var(--h3-background-color);
   color: var(--section_content_card_title_color);
   font-size: 18px;
@@ -166,12 +169,18 @@
   font-size: 18px;
   font-weight: bold;
   line-height: 23.4px;
+  letter-spacing: 10%;
 }
 
 .section1_content {
   width: 648.92px;
   height: 508px;
   display: grid;
+}
+
+.section1_content_card {
+  width: 648.92px;
+  height: 244px;
 }
 
 .section_content_card_title {
@@ -183,15 +192,21 @@
   line-height: 23.4px;
   background-color: var(--h3-background-color);
   color: var(--section_content_card_title_color);
+  letter-spacing: 10%;
 }
 
 .section_content_card_content {
   width: 100%;
   font-family: var(--main-font);
+  letter-spacing: 10%;
   font-weight: normal;
   font-size: 18px;
   line-height: 23.4px;
   color: var(--text-color);
+}
+
+.section1_card1_content {
+  letter-spacing: 15%;
 }
 
 .main_section2 {
@@ -213,12 +228,39 @@
 }
 
 .section2_content_card {
-  width: var(--scteion2_content-card-width);
+  width: 100%;
+}
+
+.section2_card1 {
+  height: 384px;
+}
+
+.section2_card2 {
+  height: 361px;
+}
+
+.section2_card3 {
+  height: 431px;
+}
+
+.section2_card1_content {
+  height: 351px;
+  letter-spacing: 14%;
+}
+
+.section2_card2_content {
+  height: 328px;
+  letter-spacing: 14%;
+}
+
+.section2_card3_content {
+  height: 398px;
+  letter-spacing: 14%;
 }
 
 .main_section3 {
   position: relative;
-  top: 50px;
+  top: 160px;
   width: var(--screen-width);
   height: var(--main_section3-height);
   display: grid;
@@ -228,7 +270,12 @@
   padding-right: 20px;
 }
 
+.section3_title {
+  height: 98px;
+}
+
 .section3_content {
+  width: 649px;
   display: grid;
   gap: 20px;
 }
@@ -239,8 +286,29 @@
   font-weight: normal;
   font-size: 18px;
   line-height: 23.4px;
+  letter-spacing: 10%;
   background-color: var(--h3-background-color);
   color: var(--section_content_card_title_color);
+}
+
+.section3_card1_content {
+  letter-spacing: 15%;
+}
+
+.section3_card2_content {
+  letter-spacing: 11%;
+}
+
+.section3_card3_content {
+  letter-spacing: 13%;
+}
+
+.section3_card4_content {
+  letter-spacing: 15%;
+}
+
+.section3_card5_content {
+  letter-spacing: 15%;
 }
 
 .main_section4 {
@@ -249,7 +317,7 @@
   height: var(--main_section4-height);
   padding-left: 20px;
   padding-right: 20px;
-  top: 69px;
+  top: 170px;
 }
 
 .section4_title {
@@ -307,14 +375,14 @@
   display: grid;
   align-items: center;
   position: relative;
-  top: 130px;
+  top: 230px;
   height: var(--footer-height);
 }
 
 .footer_content {
   display: grid;
   width: var(--screen-width);
-  height: 95vh;
+  height: 99vh;
   grid-template-rows: repeat(3, 1fr);
   grid-template-columns: 1fr;
 }
@@ -328,6 +396,7 @@
   font-size: var(--header-font-size);
   font-weight: bold;
   line-height: 83%;
+  letter-spacing: 10%;
 }
 
 .r1 {
@@ -376,6 +445,10 @@
     --header-description-width: 364px;
     --header-description-height: 117px;
     left: 384px;
+    letter-spacing: 12%;
+  }
+  .header_content {
+    top: 240px;
   }
   .res {
     left: 678px;
@@ -397,39 +470,70 @@
   }
   .section1_content {
     width: 472px;
+    height: 100%;
   }
   .section_content_card_content {
     width: 100%;
+  }
+  .section1_content_card {
+    width: 100%;
+    height: 314px;
   }
   .section_title {
     --section_title_width: 236px;
     --section_title_height: 70px;
   }
+  .section1_card1_content {
+    letter-spacing: 14%;
+  }
+  .section1_card2_content {
+    letter-spacing: 14%;
+  }
+
   .main_section2 {
     --main_section2-height: 675px;
-    top: 0;
+    top: 160px;
   }
   .section2_content {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, 1fr);
-    gap: 0;
-    top: 0;
   }
   .section2_content_card {
     --scteion2_content-card-width: 728px;
     height: 197px;
   }
+  .section2_card1 {
+    height: 174px;
+  }
+  .section2_card1_content {
+    height: 141px;
+    letter-spacing: 12.85%;
+  }
+  .section2_card2 {
+    height: 174px;
+  }
+  .section2_card2_content {
+    height: 141px;
+    letter-spacing: 15%;
+  }
+  .section2_card3 {
+    height: 174px;
+  }
+  .section2_card3_content {
+    height: 180px;
+  }
 
   .main_section3 {
     --main_section3-height: 1296px;
+    top: 320px;
   }
   .section3_content {
     width: 472px;
   }
 
   .main_section4 {
-    top: 0;
     --main_section4-height: 823px;
+    top: 340px;
   }
   .section4_title {
     --section4_title_width: 728px;
@@ -438,7 +542,7 @@
 
   .footer {
     --footer-height: 1024px;
-    top: 0;
+    top: 460px;
   }
   .footer_text {
     left: 189px;
@@ -501,7 +605,6 @@
   }
 
   .main_section1 {
-    width: 375px;
     grid-template-columns: 1fr;
     grid-template-rows: 47px 862px;
     --main_section1-height: 949px;
@@ -520,6 +623,7 @@
   }
   .section1_content_card {
     display: grid;
+    width: 100%;
     grid-template-columns: 1fr;
     grid-template-rows: 33px 398px;
     position: relative;
@@ -532,7 +636,6 @@
   
   .main_section2 {
     --main_section2-height: 1119px;
-    width: 375px;
     padding-left: 10px;
     padding-right: 10px;
   }
@@ -565,7 +668,6 @@
 
   .main_section4 {
     top: 169px;
-    --screen-width: 375px;
     --main_section4-height: 1400px;
     padding-left: 10px;
     padding-right: 10px;
@@ -576,6 +678,7 @@
   .section4_content {
     width: 355px;
     grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 255px);
     grid-template-areas: 
     "img1"
     "img2"
@@ -585,12 +688,11 @@
   }
 
   .footer {
-    --screen-width: 375px;
-    top: 630px;
     --footer-height: 668px;
   }
   .footer_text {
     align-items: center;
+    letter-spacing: 0;
   }
   .r1 {
     left: 340px;
